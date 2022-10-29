@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+    background-image:radial-gradient(rgb(65, 207, 65),rgb(77, 77, 211));        
+    font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+   div{
+   background-color: black;
+   position: absolute;
+   top: 20%;
+   left: 40%;
+   transform: translate(-50px);
+   padding: 80px;
+   border-radius: 15px;
+   color: white;
+   }
+   input{
+     padding : 15px;
+     border: none;
+     outline: none;
+     font-size: 15px; 
+   }
+   button{
+   background-color: rgb(103, 103, 231);
+   border: none; 
+   padding: 15px;
+   width:100% ;
+   border-radius: 10px;
+   color: cornsilk;
+   font-size:15px;
+   }
+   button:hover{
+   background-color: aqua;
+   cursor: pointer;
+   
+   }
